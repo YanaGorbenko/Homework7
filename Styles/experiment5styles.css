@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  font-size: 20px;
+}
+
+header a:hover {
+  color: gray;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section1 {
+  border-left: 5px solid #e74c3c;
+}
+
+.section2 {
+  border-left: 5px solid #27ae60;
+}
+
+.section3 {
+  border-left: 5px solid #27ae60;
+}
+
+.section4 {
+  border-left: 5px solid #27ae60;
+}
+
+/* Контейнери для overflow */
+.div1,
+.div2,
+.div3,
+.div4 {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid #34495e;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+
+.div1 {
+  overflow: visible;
+  border-color: #e74c3c;
+}
+
+.div2 {
+  overflow: hidden;
+  border-color: #27ae60;
+}
+
+.div3 {
+  overflow: auto;
+  border-color: #27ae60;
+}
+
+.div4 {
+  overflow: scroll;
+  border-color: #27ae60;
+}
+
+.div1 p,
+.div2 p,
+.div3 p,
+.div4 p {
+  margin: 0;
+  line-height: 1.4;
+  color: #2c3e50;
+}
+
+/* Підписи під контейнерами */
+section p:last-child {
+  font-weight: bold;
+  color: #7f8c8d;
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.section1 p:last-child {
+  color: #e74c3c;
+}
+
+.section2 p:last-child {
+  color: #27ae60;
+}

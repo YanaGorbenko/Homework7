@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header a {
+  color: white;
+  font-size: 20px;
+}
+
+header a:hover {
+  color: gray;
+}
+
+/* Секції */
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.section1 {
+  border-color: #4682b4;
+  height: 300px;
+}
+
+.section2 {
+  border-color: #32cd32;
+  clear: both;
+}
+
+/* Зображення */
+img {
+  margin: 10px;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+}
+
+p {
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #4682b4;
+}
+
+.section2 p {
+  background-color: #f0fff0;
+  border-left-color: #32cd32;
+  margin-top: 20px;
+}
+
+.section1 p {
+  padding: 20px;
+  text-align: justify;
+}
+
+.section2 img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}

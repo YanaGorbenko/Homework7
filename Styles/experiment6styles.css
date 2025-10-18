@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  z-index: 20;
+}
+
+header h1 {
+  color: white;
+  margin: 0;
+}
+
+header a,
+p {
+  color: white;
+  font-size: 15px;
+}
+
+header a:hover {
+  color: gray;
+}
+
+section {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.section1 {
+  margin-top: 100px;
+  border-left: 5px solid #00b894;
+}
+
+.section2 {
+  border-left: 5px solid #fd79a8;
+  position: relative;
+  min-height: 200px;
+}
+
+.section3 {
+  border-left: 5px solid #9379fd;
+  position: relative;
+  min-height: 200px;
+}
+
+.section4 {
+  border-left: 5px solid #f6e651;
+  position: relative;
+  min-height: 200px;
+}
+
+.section1 p {
+  background-color: #00b894;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+
+.section2 p {
+  background-color: #fd79a8;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-weight: bold;
+  width: 250px;
+}
+
+.section3 p {
+  background-color: #9379fd;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-weight: bold;
+  width: 250px;
+}
+
+.section4 p {
+  background-color: #e5dc39;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-weight: bold;
+  width: 250px;
+}
+
+.section2 p:nth-child(1) {
+  position: relative;
+  top: -20px;
+  background-color: #e84393;
+}
+
+.section2 p:nth-child(2) {
+  position: relative;
+  left: -20px;
+  background-color: #fd79a8;
+}
+
+.section2 p:nth-child(3) {
+  position: relative;
+  right: -20px;
+  background-color: #fab1a0;
+}
+
+.section2 p:nth-child(4) {
+  position: relative;
+  bottom: -20px;
+  background-color: #ff7675;
+}
+
+.section3 p:nth-child(1) {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #e84393;
+}
+
+.sticky-p {
+  position: sticky;
+  top: 0;
+  background-color: #daf368;
+  color: white;
+  padding: 15px;
+  margin: 0;
+  z-index: 30;
+}
