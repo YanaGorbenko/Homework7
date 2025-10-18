@@ -145,3 +145,22 @@ section {
   margin: 0;
   z-index: 30;
 }
+
+.conclusion {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 40px 0;
+  border: 5px dotted #ff6b6b;
+}
+
+.conclusion p {
+  color: #ff6b6b;
+  font-size: 15px;
+  margin: 0;
+  font-style: italic;
+}
+
+.conclusion span {
+  font-weight: bold;
+}
